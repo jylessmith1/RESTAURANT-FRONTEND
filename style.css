@@ -1,0 +1,161 @@
+
+/* Main Styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: palevioletred;
+  box-shadow: 0 0 10px rgba(146, 17, 17, 0.1);
+  border-radius: 5px;
+}
+
+/* Menu Section Styles */
+#Menu-Section {
+  margin-bottom: 50px;
+}
+
+#Menu-Section h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #F20530;
+  margin-bottom: 20px;
+}
+
+#Menu-Section h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.menu-item, .vegan-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #a0e40f;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover, .vegan-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item h4, .vegan-item {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Specials Styles */
+#resturants-container {
+  margin-bottom: 50px;
+}
+
+#resturants-container h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #F20530;
+  margin-bottom: 20px;
+}
+
+.specials {
+  padding: 20px;
+  background-color: #24c8d7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.specials:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.specials h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.specials p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Servers Styles */
+#section3 {
+  margin-bottom: 50px;
+}
+
+#section3 h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #F20530;
+  margin-bottom: 20px;
+}
+
+article {
+  padding: 20px;
+  background-color: #a0e40f;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* article h3 {
+    font-size: 24px; */
+h3 {
+  margin-top: 0;
+  color: #666;
+}
+
+#section3 {
+  background-color: #a0e40f;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+#section4 {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #40a7a4;
+}
